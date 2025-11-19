@@ -1,12 +1,18 @@
 <script setup>
 import CompositionComponent from './components/CompositionComponent.vue'
 import OptionsComponent from './components/OptionsComponent.vue'
+import ReactiveComponent from './components/ReactiveComponent.vue'
 </script>
 
 <template>
-  <OptionsComponent />
+  <OptionsComponent :title="`Ini Options Component`" :button="`Button Options Component`" />
   <hr />
-  <CompositionComponent />
+  <CompositionComponent
+    :title="`Ini Composition Component`"
+    :button="`Button Composition Component`"
+  />
+  <hr />
+  <ReactiveComponent :title="`Ini Reactive Component`" />
 </template>
 
 <style scoped></style>

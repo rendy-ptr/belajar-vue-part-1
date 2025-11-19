@@ -1,19 +1,13 @@
 <script>
 export default {
-  data() {
-    return {
-      name: 'This A Options Component',
-    }
-  },
-  methods: {
-    showName() {
-      console.log(this.name)
-    },
+  props: {
+    title: String,
+    button: String,
   },
 }
 </script>
 
 <template>
-  <h1>{{ name }}</h1>
-  <button @click="showName">Options Component</button>
+  <h1>{{ title }}</h1>
+  <button>{{ button }}</button>
 </template>
