@@ -5,6 +5,7 @@ import ConditionalComponent from './components/ConditionalComponent.vue'
 import ListRenderingComponent from './components/ListRenderingComponent.vue'
 import OptionsComponent from './components/OptionsComponent.vue'
 import ReactiveComponent from './components/ReactiveComponent.vue'
+import StylingComponent from './components/StylingComponent.vue'
 </script>
 
 <template>
@@ -22,6 +23,56 @@ import ReactiveComponent from './components/ReactiveComponent.vue'
   <ConditionalComponent />
   <hr />
   <ListRenderingComponent />
+  <hr />
+  <StylingComponent />
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 </template>
 
 <style scoped></style>
