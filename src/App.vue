@@ -2,6 +2,7 @@
 import CompositionComponent from './components/CompositionComponent.vue'
 import ComputedComponent from './components/ComputedComponent.vue'
 import ConditionalComponent from './components/ConditionalComponent.vue'
+import ListRenderingComponent from './components/ListRenderingComponent.vue'
 import OptionsComponent from './components/OptionsComponent.vue'
 import ReactiveComponent from './components/ReactiveComponent.vue'
 </script>
@@ -19,6 +20,8 @@ import ReactiveComponent from './components/ReactiveComponent.vue'
   <ComputedComponent />
   <hr />
   <ConditionalComponent />
+  <hr />
+  <ListRenderingComponent />
 </template>
 
 <style scoped></style>
