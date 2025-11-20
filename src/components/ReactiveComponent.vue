@@ -14,7 +14,7 @@ const state = reactive({
   <div>
     <h1>{{ title }}</h1>
     <p>{{ state.count }}</p>
-    <button @click="state.count++">+</button>
-    <button @click="state.count--">-</button>
+    <button @click="state.count++" :disabled="state.count >= 10">+</button>
+    <button @click="state.count--" :disabled="state.count <= 0">-</button>
   </div>
 </template>

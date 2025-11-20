@@ -4,10 +4,15 @@ export default {
     title: String,
     button: String,
   },
+  methods: {
+    handleClick() {
+      console.log(this.title)
+    },
+  },
 }
 </script>
 
 <template>
   <h1>{{ title }}</h1>
-  <button>{{ button }}</button>
+  <button @click="handleClick">{{ button }}</button>
 </template>
