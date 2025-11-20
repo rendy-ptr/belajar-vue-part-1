@@ -2,6 +2,7 @@
 import CompositionComponent from './components/CompositionComponent.vue'
 import ComputedComponent from './components/ComputedComponent.vue'
 import ConditionalComponent from './components/ConditionalComponent.vue'
+import FormComponent from './components/FormComponent.vue'
 import ListRenderingComponent from './components/ListRenderingComponent.vue'
 import OptionsComponent from './components/OptionsComponent.vue'
 import ReactiveComponent from './components/ReactiveComponent.vue'
@@ -25,7 +26,8 @@ import StylingComponent from './components/StylingComponent.vue'
   <ListRenderingComponent />
   <hr />
   <StylingComponent />
-  <br>
+  <hr />
+  <FormComponent />
   <br>
   <br>
   <br>
